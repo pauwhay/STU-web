@@ -1,0 +1,121 @@
+/*
+Theme Name: stuNetp
+Description: for stu netp
+*/
+
+/* reset css*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+}
+
+body {
+        line-height: 1;
+}
+
+ol, ul {
+        list-style: none;
+}
+
+blockquote, q {
+        quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+        content: '';
+        content: none;
+}
+
+/* remember to define focus styles! */
+
+:focus {
+        outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+
+ins {
+        text-decoration: none;
+}
+
+del {
+        text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+
+table {
+        border-collapse: collapse;
+        border-spacing: 0;
+}
+                                                                    
+/* end reset css*/
+
+/* theme */
+
+div.doc {
+        width: 1000px;
+        height: 800px;
+        background-color: #ebebeb;
+        margin: 0 auto;
+        font-family: 微軟正黑體;
+        line-height: 20px;
+}
+/* end theme */
+
+/* header */
+
+div.header {
+        width: 1000px;
+        height: 75px;
+}
+div.header img {
+        width: 1000px;
+}
+/* end header */
+
+/* content */
+
+div.content {
+        width: 980px;
+        height: 665px;
+        margin: 0 auto;
+}
+
+div.article {
+        width: 800px;
+        float: left;
+}
+
+div.aside {
+        width: 180px;
+        float: right;
+}
+
+div.aside img.img2 {
+        width: 180px;
+}
+
+/* end content */
+
+/* footer */
+
+div.footer {
+        width: 1000px;
+        height: 35px;
+        margin: 0 auto;
+}
+
+div.footer p {
+        text-align: center;
+        background-color: black;
+        color: white;
+}
+
+/* end footer */

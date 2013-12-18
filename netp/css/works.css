@@ -1,0 +1,200 @@
+/*
+Theme Name: stuNetp
+Description: for stu netp
+*/
+
+/* reset css*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+}
+
+body {
+        line-height: 1;
+}
+
+ol, ul {
+        list-style: none;
+}
+
+blockquote, q {
+        quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+        content: '';
+        content: none;
+}
+
+/* remember to define focus styles! */
+
+:focus {
+        outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+
+ins {
+        text-decoration: none;
+}
+
+del {
+        text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+
+table {
+        border-collapse: collapse;
+        border-spacing: 0;
+}
+                                                                    
+/* end reset css*/
+
+/* theme */
+
+body {
+        margin: 0px;
+}
+
+div.doc {
+        width: 1000px;        
+        margin: 0 auto;
+        font-family: 微軟正黑體;
+        background: url("../image/bgwhite.jpg");
+}
+
+/* end theme */
+
+/* header */
+
+div.title {
+        width: 1000px;
+        height: 65px;
+        margin-top: 0px;
+}
+
+div.title img {
+        width: 1000px;
+        height: 65px;
+}
+
+div.title_bar {
+        width: 980px;
+        height: 105px;
+        margin: 0 auto;
+        margin-top: -2px;
+}
+
+div.title_bar img {
+        width: 980px;
+}
+
+div.menu {
+        background: url("../image/menu.png");
+        width: 980px;
+        height: 53px;
+        margin: 0 auto;
+        margin-top: 2px;
+}
+
+div.menu img {
+        width: 980px;
+}
+
+div.menu a {
+        width: 196px;
+        height: 53px;
+}
+div.menu li {
+        width: 196px;
+        height: 53px;
+        float: left;
+        display: block;
+}
+
+div.menu span {
+        width: 196px;
+        height: 53px;
+        position: absolute;
+        display: block;
+}
+
+div.menu ul {
+        margin: 0px;
+        list-style: none;
+        width: 980px;
+}
+
+div.menu span.menu1 {
+        background: url("../image/menu.png") -0px 0px;
+}
+
+div.menu span.menu1:hover {
+        background: url("../image/menu_hover.png") -0px 0px;
+}
+
+div.menu span.menu2 {
+        background: url("../image/menu.png") -196px 0px;
+}
+
+div.menu span.menu2:hover {
+        background: url("../image/menu_hover.png") -196px 0px;
+}
+
+div.menu span.menu3 {
+        background: url("../image/menu.png") -392px 0px;
+}
+
+div.menu span.menu3:hover {
+        background: url("../image/menu_hover.png") -392px 0px;
+}
+
+div.menu span.menu4 {
+        background: url("../image/menu.png") -588px 0px;
+}
+
+div.menu span.menu4:hover {
+        background: url("../image/menu_hover.png") -588px 0px;
+}
+
+div.menu span.menu5 {
+        background: url("../image/menu.png") -784px 0px;
+}
+
+div.menu span.menu5:hover {
+        background: url("../image/menu_hover.png") -784px 0px;
+}
+
+/* end header */
+
+/* content */
+
+
+
+/* end content */
+
+/* footer */
+
+div.footer {
+        padding-top: 2px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 13px;
+        width: 980px;
+        height: 35px;
+        background: url("../image/footer_bg.png");
+}
+
+div.footer p.footer_text {
+        letter-spacing: 0.3px;
+        line-height: 16px;
+        font-weight: bold;
+}
+/* end footer */
